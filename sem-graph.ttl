@@ -1,0 +1,76 @@
+@prefix allen: <http://www.w3.org/2006/time#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+wd:Q107483093 a sem:Event ;
+    rdfs:label "French First Republic" ;
+    sem:hasSubEvent wd:Q1347313,
+        wd:Q193547,
+        wd:Q207318,
+        wd:Q248033,
+        wd:Q2998928,
+        wd:Q474757,
+        wd:Q620965,
+        wd:Q664271,
+        wd:Q78994 ;
+    allen:intervalFinishedBy wd:Q5373953 ;
+    allen:intervalStartedBy wd:Q2264242 .
+
+wd:Q109041266 a sem:Event ;
+    rdfs:label "Kingdom of France" ;
+    sem:hasSubEvent wd:Q1154330 ;
+    allen:intervalAfter wd:Q1192894 ;
+    allen:intervalFinishedBy wd:Q2264242 ;
+    allen:intervalStartedBy wd:Q971176 .
+
+wd:Q1154330 a sem:EventType ;
+    rdfs:label "Insurrection of 10 August 1792" .
+
+wd:Q1192894 a sem:EventType ;
+    rdfs:label "Flight to Varennes" .
+
+wd:Q193547 a sem:EventType ;
+    rdfs:label "Reign of Terror" ;
+    allen:intervalBefore wd:Q474757 .
+
+wd:Q5373953 a sem:EventType ;
+    rdfs:label "Emperor of the French" .
+
+wd:Q971176 a sem:EventType ;
+    rdfs:label "French Constitution of 1791" .
+
+wd:Q1347313 a sem:EventType ;
+    rdfs:label "Constitution of the Year VIII" ;
+    allen:intervalBefore wd:Q207318 .
+
+wd:Q207318 a sem:EventType ;
+    rdfs:label "French Revolutionary Wars" ;
+    allen:intervalBefore wd:Q78994 .
+
+wd:Q2264242 a sem:EventType ;
+    rdfs:label "Proclamation of the abolition of the monarchy" .
+
+wd:Q248033 a sem:EventType ;
+    rdfs:label "Coup of 18 Fructidor" ;
+    allen:intervalBefore wd:Q2998928 .
+
+wd:Q2998928 a sem:EventType ;
+    rdfs:label "Coup of 30 Prairial VII" ;
+    allen:intervalBefore wd:Q620965 .
+
+wd:Q474757 a sem:EventType ;
+    rdfs:label "Thermidorean Reaction" ;
+    allen:intervalBefore wd:Q664271 .
+
+wd:Q620965 a sem:EventType ;
+    rdfs:label "Coup of 18 Brumaire" ;
+    allen:intervalBefore wd:Q1347313 .
+
+wd:Q664271 a sem:EventType ;
+    rdfs:label "Constitution of the Year III" ;
+    allen:intervalBefore wd:Q248033 .
+
+wd:Q78994 a sem:EventType ;
+    rdfs:label "Napoleonic Wars" .
+

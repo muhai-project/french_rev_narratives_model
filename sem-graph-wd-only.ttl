@@ -1,0 +1,972 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+wd:P1365 rdfs:label "replaces" .
+
+wd:P155 rdfs:label "follows" .
+
+wd:P156 rdfs:label "followed by" .
+
+wd:Q1073320 a sem:Event ;
+    rdfs:label "Reveillon riot" ;
+    sem:eventType wd:Q124757 ;
+    sem:hasBeginTimeStamp "1789-04-26"^^xsd:date ;
+    sem:hasEndTimeStamp "1789-04-29"^^xsd:date ;
+    sem:hasPlace wd:Q142,
+        wd:Q3067308 ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q107995509 rdfs:label "replaced by" .
+
+wd:Q1089686 a sem:Event ;
+    rdfs:label "Champ de Mars Massacre" ;
+    sem:eventType wd:Q3199915 ;
+    sem:hasPlace wd:Q142,
+        wd:Q217925 ;
+    sem:hasTimeStamp "1791-07-17"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q1108912 a sem:Event ;
+    rdfs:label "Assembly of Vizille" ;
+    sem:eventType wd:Q1752346 ;
+    sem:hasPlace wd:Q951768 ;
+    sem:hasTimeStamp "1788-07-21"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q1151536 a sem:Event ;
+    rdfs:label "Revolt of 1 prairial year III" ;
+    sem:eventType wd:Q124757 ;
+    sem:hasPlace wd:Q90 ;
+    sem:hasTimeStamp "1795-05-20"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q1151917 a sem:Event ;
+    rdfs:label "Women's March on Versailles" ;
+    sem:eventType wd:Q1190554 ;
+    sem:hasBeginTimeStamp "1789-10-05"^^xsd:date ;
+    sem:hasEndTimeStamp "1789-10-06"^^xsd:date ;
+    sem:hasTimeStamp "1789-10-06"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q1154330 a sem:Event ;
+    rdfs:label "10 August" ;
+    sem:eventType wd:Q124757 ;
+    sem:hasPlace wd:Q142,
+        wd:Q234364,
+        wd:Q90 ;
+    sem:hasTimeStamp "1792-08-10"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q1192894 a sem:Event ;
+    rdfs:label "Flight to Varennes" ;
+    sem:eventType wd:Q1430466 ;
+    sem:hasTimeStamp "1791-06-01"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q1249756 a sem:Event ;
+    rdfs:label "Paris Commune" ;
+    sem:eventType wd:Q56061,
+        wd:Q7188 ;
+    sem:hasBeginTimeStamp "1789-07-20"^^xsd:date,
+        "1790-05-21"^^xsd:date ;
+    sem:hasEndTimeStamp "1795-08-22"^^xsd:date ;
+    sem:hasPlace wd:Q142 ;
+    sem:subEventOf wd:Q6534 ;
+    wd:P156 wd:Q2845944 .
+
+wd:Q1277069 a sem:Event ;
+    rdfs:label "Cult of the Supreme Being" ;
+    sem:hasActor [ a sem:Role ;
+            sem:roleType wd:P112 ;
+            rdf:value wd:Q44197 ] ;
+    sem:hasBeginTimeStamp "1794-05-07"^^xsd:date ;
+    sem:hasPlace wd:Q58296 ;
+    sem:subEventOf wd:Q6534 ;
+    wd:P155 wd:Q1275961 .
+
+wd:Q12989672 a sem:Event ;
+    rdfs:label "Insurrection of 31 May — 2 June" ;
+    sem:eventType wd:Q180684 ;
+    sem:hasBeginTimeStamp "1793-05-31"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-06-02"^^xsd:date ;
+    sem:hasTimeStamp "1793-06-02"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q1344444 a sem:Event ;
+    rdfs:label "Dechristianisation of France during the French Revolution" ;
+    sem:eventType wd:Q7163 ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q13644774 a sem:Event ;
+    rdfs:label "White Terror" ;
+    sem:eventType wd:Q11514315 ;
+    sem:subEventOf wd:Q207162,
+        wd:Q6534 .
+
+wd:Q143866 a sem:Event ;
+    rdfs:label "Fête de la Fédération" ;
+    sem:eventType wd:Q2627975 ;
+    sem:hasPlace wd:Q142,
+        wd:Q217925 ;
+    sem:hasTimeStamp "1790-07-14"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q1463941 a sem:Event ;
+    rdfs:label "Estates-General of 1789" ;
+    sem:eventType wd:Q207304 ;
+    sem:hasBeginTimeStamp "1789-01-24"^^xsd:date ;
+    sem:hasEndTimeStamp "1789-06-20"^^xsd:date ;
+    sem:hasPlace wd:Q70972 ;
+    sem:hasTimeStamp "1789-01-01"^^xsd:date ;
+    sem:subEventOf wd:Q6534 ;
+    wd:Q107995509 wd:Q876424 .
+
+wd:Q15784403 a sem:Event ;
+    rdfs:label "Thermidorian Reaction" ;
+    sem:eventType wd:Q11514315 ;
+    sem:hasPlace wd:Q90 ;
+    sem:subEventOf wd:Q219825 .
+
+wd:Q162463 a sem:Event ;
+    rdfs:label "Nancy affair" ;
+    sem:eventType wd:Q511866 ;
+    sem:hasBeginTimeStamp "1790-08-05"^^xsd:date ;
+    sem:hasEndTimeStamp "1790-08-30"^^xsd:date ;
+    sem:hasPlace wd:Q40898 ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q16669638 a sem:Event ;
+    rdfs:label "execution of Louis XVI" ;
+    sem:eventType wd:Q10855380,
+        wd:Q13418847,
+        wd:Q204933 ;
+    sem:hasPlace wd:Q142 ;
+    sem:hasTimeStamp "1793-01-21"^^xsd:date ;
+    wd:P155 wd:Q430135 .
+
+wd:Q193547 a sem:Event ;
+    rdfs:label "Reign of Terror" ;
+    sem:eventType wd:Q11514315 ;
+    sem:hasActor [ a sem:Role ;
+            sem:roleType wd:P664 ;
+            rdf:value wd:Q724922 ] ;
+    sem:hasBeginTimeStamp "1793-09-02"^^xsd:date ;
+    sem:hasEndTimeStamp "1794-07-28"^^xsd:date ;
+    sem:hasPlace wd:Q142,
+        wd:Q58296 ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q200749 a sem:Event ;
+    rdfs:label "Day of the Tiles" ;
+    sem:eventType wd:Q124757 ;
+    sem:hasPlace wd:Q1289,
+        wd:Q142 ;
+    sem:hasTimeStamp "1788-06-07"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q2055515 a sem:Event ;
+    rdfs:label "Federalist revolts" ;
+    sem:eventType wd:Q124734 ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q2059874 a sem:Event ;
+    rdfs:label "Infernal columns" ;
+    sem:eventType wd:Q645883 ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q207318 a sem:Event ;
+    rdfs:label "French Revolutionary Wars" ;
+    sem:eventType wd:Q198 ;
+    sem:hasActor [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q1405556 ],
+        [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q206696 ],
+        [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q45670 ],
+        [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q170072 ],
+        [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q2290419 ],
+        [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q165154 ],
+        [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q861551 ],
+        [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q62651 ],
+        [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q150058 ],
+        [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q58296 ],
+        [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q1435724 ],
+        [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q12560 ],
+        [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q161885 ],
+        [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q173065 ],
+        [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q30 ],
+        [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q34266 ],
+        [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q233 ],
+        [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q187549 ],
+        [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q70972 ],
+        [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q27306 ],
+        [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q266923 ],
+        [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q80702 ],
+        [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q2984260 ],
+        [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q12548 ] ;
+    sem:hasBeginTimeStamp "1792-04-20"^^xsd:date ;
+    sem:hasEndTimeStamp "1802-03-25"^^xsd:date ;
+    sem:hasPlace wd:Q46 ;
+    sem:subEventOf wd:Q15053704,
+        wd:Q6534 ;
+    wd:P156 wd:Q78994 .
+
+wd:Q2264242 a sem:Event ;
+    rdfs:label "proclamation of the abolition of the monarchy" ;
+    sem:eventType wd:Q13418847,
+        wd:Q1406161,
+        wd:Q1572600,
+        wd:Q2571972 ;
+    sem:hasTimeStamp "1792-09-21"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q248033 a sem:Event ;
+    rdfs:label "Coup of 18 Fructidor" ;
+    sem:eventType wd:Q45382 ;
+    sem:hasPlace wd:Q58296,
+        wd:Q90 ;
+    sem:hasTimeStamp "1797-09-04"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q249960 a sem:Event ;
+    rdfs:label "Chouannerie" ;
+    sem:eventType wd:Q8465 ;
+    sem:hasBeginTimeStamp "1794-01-01"^^xsd:date ;
+    sem:hasEndTimeStamp "1800-01-01"^^xsd:date ;
+    sem:hasPlace wd:Q142,
+        wd:Q327 ;
+    sem:hasTimeStamp "1794-01-01"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q2622002 a sem:Event ;
+    rdfs:label "abolition of feudalism in France" ;
+    sem:eventType wd:Q322732 ;
+    sem:hasTimeStamp "1789-08-04"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q2935567 a sem:Event ;
+    rdfs:label "Coup of 30 Prairial Year VII" ;
+    sem:eventType wd:Q45382 ;
+    sem:hasBeginTimeStamp "1799-06-17"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-06-18"^^xsd:date ;
+    sem:hasPlace wd:Q58296 ;
+    sem:hasTimeStamp "1799-06-18"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q2998928 a sem:Event ;
+    rdfs:label "Saint-Domingue expedition" ;
+    sem:eventType wd:Q180684,
+        wd:Q2401485 ;
+    sem:hasPlace wd:Q790,
+        wd:Q861551 ;
+    sem:hasTimeStamp "1801-12-01"^^xsd:date ;
+    sem:subEventOf wd:Q6534,
+        wd:Q689128 .
+
+wd:Q3062411 a sem:Event ;
+    rdfs:label "Insurrection of 12 Germinal, Year III" ;
+    sem:eventType wd:Q180684 ;
+    sem:hasTimeStamp "1795-01-01"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q3152958 a sem:Event ;
+    rdfs:label "massacres of La Glacière" ;
+    sem:eventType wd:Q3199915 ;
+    sem:hasPlace wd:Q142,
+        wd:Q143463 ;
+    sem:hasTimeStamp "1791-10-01"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q3297481 a sem:Event ;
+    rdfs:label "Day of Daggers" ;
+    sem:hasPlace wd:Q142,
+        wd:Q234364 ;
+    sem:hasTimeStamp "1791-02-28"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q3577291 a sem:Event ;
+    rdfs:label "First White Terror" ;
+    sem:eventType wd:Q1899269 ;
+    sem:hasPlace wd:Q142 ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q370029 a sem:Event ;
+    rdfs:label "Great Fear" ;
+    sem:eventType wd:Q3377832 ;
+    sem:hasBeginTimeStamp "1789-07-20"^^xsd:date ;
+    sem:hasEndTimeStamp "1789-08-06"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q474757 a sem:Event ;
+    rdfs:label "French Consulate" ;
+    sem:eventType wd:Q3024240,
+        wd:Q5589178 ;
+    sem:hasBeginTimeStamp "1799-11-09"^^xsd:date ;
+    sem:hasEndTimeStamp "1804-05-18"^^xsd:date ;
+    sem:hasPlace wd:Q142,
+        wd:Q58296 ;
+    wd:P155 wd:Q219817 ;
+    wd:P156 wd:Q71084 .
+
+wd:Q5242918 a sem:Event ;
+    rdfs:label "Coup of 9 Thermidor" ;
+    sem:eventType wd:Q1190554,
+        wd:Q20127274 ;
+    sem:hasTimeStamp "1794-07-26"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q5454077 a sem:Event ;
+    rdfs:label "Siege of Maubeuge" ;
+    sem:eventType wd:Q180684,
+        wd:Q188055 ;
+    sem:hasBeginTimeStamp "1793-09-30"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-10-16"^^xsd:date ;
+    sem:hasPlace wd:Q138648 ;
+    sem:hasTimeStamp "1793-10-16"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q599663 a sem:Event ;
+    rdfs:label "Virée de Galerne" ;
+    sem:eventType wd:Q831663 ;
+    sem:hasBeginTimeStamp "1793-10-18"^^xsd:date ;
+    sem:hasEndTimeStamp "1793-12-23"^^xsd:date ;
+    sem:hasPlace wd:Q12584 ;
+    sem:hasTimeStamp "1793-12-23"^^xsd:date ;
+    sem:subEventOf wd:Q6534,
+        wd:Q8628 .
+
+wd:Q60022 a sem:Event ;
+    rdfs:label "Tennis Court Oath" ;
+    sem:eventType wd:Q1190554 ;
+    sem:hasPlace wd:Q70972,
+        wd:Q805255 ;
+    sem:hasTimeStamp "1789-06-20"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q620965 a sem:Event ;
+    rdfs:label "coup of 18 Brumaire" ;
+    sem:eventType wd:Q45382 ;
+    sem:hasActor [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q517 ] ;
+    sem:hasPlace wd:Q58296 ;
+    sem:hasTimeStamp "1799-11-09"^^xsd:date ;
+    sem:subEventOf wd:Q6534 ;
+    wd:P1542 wd:Q877619 .
+
+wd:Q642021 a sem:Event ;
+    rdfs:label "Demonstration of 20 June 1792" ;
+    sem:eventType wd:Q124757 ;
+    sem:hasPlace wd:Q90 ;
+    sem:hasTimeStamp "1792-06-20"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q6539 a sem:Event ;
+    rdfs:label "Storming of the Bastille" ;
+    sem:eventType wd:Q104708121 ;
+    sem:hasActor [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q822225 ],
+        [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q507083 ],
+        [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q70972 ],
+        [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q1079501 ],
+        [ a sem:Role ;
+            sem:roleType wd:P710 ;
+            rdf:value wd:Q1059047 ] ;
+    sem:hasPlace wd:Q142,
+        wd:Q90 ;
+    sem:hasTimeStamp "1789-07-14"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q720498 a sem:Event ;
+    rdfs:label "13 Vendémiaire" ;
+    sem:eventType wd:Q45382 ;
+    sem:hasPlace wd:Q58296,
+        wd:Q90 ;
+    sem:hasTimeStamp "1795-10-05"^^xsd:date ;
+    sem:subEventOf wd:Q6534 .
+
+wd:Q862586 a sem:Event ;
+    rdfs:label "September Massacres" ;
+    sem:eventType wd:Q750215 ;
+    sem:hasBeginTimeStamp "1792-09-02"^^xsd:date ;
+    sem:hasEndTimeStamp "1792-09-07"^^xsd:date ;
+    sem:hasPlace wd:Q138101,
+        wd:Q207620,
+        wd:Q212420,
+        wd:Q23482,
+        wd:Q271072,
+        wd:Q2983806,
+        wd:Q3142856,
+        wd:Q3292048,
+        wd:Q3403987,
+        wd:Q41185,
+        wd:Q41876,
+        wd:Q44160,
+        wd:Q456,
+        wd:Q621,
+        wd:Q673526,
+        wd:Q71724,
+        wd:Q856882,
+        wd:Q939883,
+        wd:Q960165 ;
+    sem:subEventOf wd:Q6534 .
+
+wd:P112 a sem:RoleType ;
+    rdfs:label "founded by" .
+
+wd:P131 a sem:PlaceType ;
+    rdfs:label "located in the administrative territorial entity" .
+
+wd:P664 a sem:RoleType ;
+    rdfs:label "organizer" .
+
+wd:Q104708121 a sem:EventType ;
+    rdfs:label "storming" .
+
+wd:Q1059047 rdfs:label "National Guard" .
+
+wd:Q107483093 a sem:Event ;
+    rdfs:label "French First Republic" ;
+    sem:eventType wd:Q3024240,
+        wd:Q3624078 ;
+    sem:hasBeginTimeStamp "1792-01-01"^^xsd:date ;
+    sem:hasEndTimeStamp "1804-01-01"^^xsd:date ;
+    sem:hasPlace wd:Q142,
+        wd:Q5401 ;
+    wd:P1365 wd:Q1122980,
+        wd:Q157070,
+        wd:Q158835,
+        wd:Q159856,
+        wd:Q2629137,
+        wd:Q2719360,
+        wd:Q302454,
+        wd:Q309460,
+        wd:Q3456410,
+        wd:Q599613,
+        wd:Q638575,
+        wd:Q69323,
+        wd:Q697787 ;
+    wd:P155 wd:Q69323 ;
+    wd:P361 wd:Q107483093 ;
+    wd:Q107995509 wd:Q71084 .
+
+wd:Q1079501 rdfs:label "Gardes Françaises" .
+
+wd:Q10855380 a sem:EventType ;
+    rdfs:label "public execution" .
+
+wd:Q109041266 a sem:Event ;
+    rdfs:label "Kingdom of France" ;
+    sem:eventType wd:Q3024240,
+        wd:Q3624078,
+        wd:Q41614,
+        wd:Q417175,
+        wd:Q5589178 ;
+    sem:hasBeginTimeStamp "1791-09-04"^^xsd:date ;
+    sem:hasEndTimeStamp "1792-09-21"^^xsd:date ;
+    sem:hasPlace wd:Q142,
+        wd:Q46 ;
+    wd:P1365 wd:Q70972 ;
+    wd:P155 wd:Q70972 ;
+    wd:P156 wd:Q58296 ;
+    wd:P361 wd:Q109041266 ;
+    wd:Q107995509 wd:Q58296 .
+
+wd:Q1122980 rdfs:label "Comtat Venaissin" .
+
+wd:Q124734 a sem:EventType ;
+    rdfs:label "rebellion" .
+
+wd:Q12548 rdfs:label "Holy Roman Empire" .
+
+wd:Q12560 rdfs:label "Ottoman Empire" .
+
+wd:Q12584 a sem:Place ;
+    rdfs:label "Maine-et-Loire" ;
+    sem:placeType wd:P276 .
+
+wd:Q1275961 rdfs:label "Cult of Reason" .
+
+wd:Q1289 a sem:Place ;
+    rdfs:label "Grenoble" ;
+    sem:placeType wd:P131 .
+
+wd:Q138101 a sem:Place ;
+    rdfs:label "Conciergerie" ;
+    sem:placeType wd:P276 .
+
+wd:Q138648 a sem:Place ;
+    rdfs:label "Maubeuge" ;
+    sem:placeType wd:P276 .
+
+wd:Q1405556 rdfs:label "Émigré armies of the French Revolutionary Wars" .
+
+wd:Q1406161 a sem:EventType ;
+    rdfs:label "artistic theme" .
+
+wd:Q1430466 a sem:EventType ;
+    rdfs:label "escape" .
+
+wd:Q143463 a sem:Place ;
+    rdfs:label "Palais des Papes" ;
+    sem:placeType wd:P276 .
+
+wd:Q1435724 rdfs:label "list of historic states of Italy" .
+
+wd:Q150058 rdfs:label "Thiruvithamkoor Maharajyam" .
+
+wd:Q15053704 a sem:Event ;
+    rdfs:label "Coalition Wars" .
+
+wd:Q157070 rdfs:label "County of Flanders" .
+
+wd:Q1572600 a sem:EventType ;
+    rdfs:label "proclamation" .
+
+wd:Q158835 rdfs:label "Prince-Bishopric of Liège" .
+
+wd:Q159856 rdfs:label "Duchy of Brabant" .
+
+wd:Q161885 rdfs:label "Great Britain" .
+
+wd:Q165154 rdfs:label "Kingdom of Sardinia" .
+
+wd:Q170072 rdfs:label "Dutch Republic" .
+
+wd:Q173065 rdfs:label "Kingdom of Naples" .
+
+wd:Q1752346 a sem:EventType ;
+    rdfs:label "assembly" .
+
+wd:Q187549 rdfs:label "Order of Hospitallers" .
+
+wd:Q188055 a sem:EventType ;
+    rdfs:label "siege" .
+
+wd:Q1899269 a sem:EventType ;
+    rdfs:label "political repression" .
+
+wd:Q198 a sem:EventType ;
+    rdfs:label "war" .
+
+wd:Q20127274 a sem:EventType ;
+    rdfs:label "certain aspects of a person's life" .
+
+wd:Q204933 a sem:EventType ;
+    rdfs:label "decapitation" .
+
+wd:Q206696 rdfs:label "Helvetic Republic" .
+
+wd:Q207162 a sem:Event ;
+    rdfs:label "Bourbon Restoration" .
+
+wd:Q207304 a sem:EventType ;
+    rdfs:label "Estates General" .
+
+wd:Q207620 a sem:Place ;
+    rdfs:label "Meaux" ;
+    sem:placeType wd:P276 .
+
+wd:Q212420 a sem:Place ;
+    rdfs:label "Sens" ;
+    sem:placeType wd:P276 .
+
+wd:Q219817 a sem:Event ;
+    rdfs:label "French Directory" ;
+    sem:eventType wd:Q2523556,
+        wd:Q5589178 ;
+    sem:hasBeginTimeStamp "1795-11-02"^^xsd:date ;
+    sem:hasEndTimeStamp "1799-11-09"^^xsd:date ;
+    sem:hasPlace wd:Q142,
+        wd:Q58296 ;
+    sem:subEventOf wd:Q6534 ;
+    wd:P1365 wd:Q219825 ;
+    wd:P156 wd:Q877619 ;
+    wd:Q107995509 wd:Q877619 .
+
+wd:Q2290419 rdfs:label "Catholic and Royal Army" .
+
+wd:Q233 rdfs:label "Malta" .
+
+wd:Q23482 a sem:Place ;
+    rdfs:label "Marseille" ;
+    sem:placeType wd:P276 .
+
+wd:Q2401485 a sem:EventType ;
+    rdfs:label "expedition" .
+
+wd:Q2523556 a sem:EventType ;
+    rdfs:label "directorial system" .
+
+wd:Q2571972 a sem:EventType ;
+    rdfs:label "decree" .
+
+wd:Q2627975 a sem:EventType ;
+    rdfs:label "ceremony" .
+
+wd:Q2629137 rdfs:label "Free Imperial City of Aachen" .
+
+wd:Q266923 rdfs:label "Kingdom of Mysore" .
+
+wd:Q271072 a sem:Place ;
+    rdfs:label "Gisors" ;
+    sem:placeType wd:P276 .
+
+wd:Q2719360 rdfs:label "Duchy of Luxembourg" .
+
+wd:Q27306 rdfs:label "Kingdom of Prussia" .
+
+wd:Q2845944 rdfs:label "former arrondissement of Paris" .
+
+wd:Q2983806 a sem:Place ;
+    rdfs:label "Q2983806" ;
+    sem:placeType wd:P276 .
+
+wd:Q2984260 rdfs:label "Newfoundland Colony" .
+
+wd:Q30 rdfs:label "United States of America" .
+
+wd:Q302454 rdfs:label "Subalpine Republic" .
+
+wd:Q3067308 a sem:Place ;
+    rdfs:label "Saint-Antoine district" ;
+    sem:placeType wd:P276 .
+
+wd:Q309460 rdfs:label "County of Hainaut" .
+
+wd:Q3142856 a sem:Place ;
+    rdfs:label "La Force Prison" ;
+    sem:placeType wd:P276 .
+
+wd:Q322732 a sem:EventType ;
+    rdfs:label "abolition" .
+
+wd:Q327 a sem:Place ;
+    rdfs:label "Brittany" ;
+    sem:placeType wd:P276 .
+
+wd:Q3292048 a sem:Place ;
+    rdfs:label "Prison de l'Abbaye" ;
+    sem:placeType wd:P276 .
+
+wd:Q3377832 a sem:EventType ;
+    rdfs:label "Q3377832" .
+
+wd:Q3403987 a sem:Place ;
+    rdfs:label "Carmes Prison" ;
+    sem:placeType wd:P276 .
+
+wd:Q34266 rdfs:label "Russian Empire" .
+
+wd:Q3456410 rdfs:label "Republic of Mulhouse" .
+
+wd:Q35749 a sem:EventType ;
+    rdfs:label "parliament" .
+
+wd:Q38 a sem:Place ;
+    rdfs:label "Italy" ;
+    sem:placeType wd:P17 .
+
+wd:Q40898 a sem:Place ;
+    rdfs:label "Nancy" ;
+    sem:placeType wd:P276 .
+
+wd:Q41185 a sem:Place ;
+    rdfs:label "Caen" ;
+    sem:placeType wd:P276 .
+
+wd:Q41614 a sem:EventType ;
+    rdfs:label "constitutional monarchy" .
+
+wd:Q417175 a sem:EventType ;
+    rdfs:label "kingdom" .
+
+wd:Q41876 a sem:Place ;
+    rdfs:label "Reims" ;
+    sem:placeType wd:P276 .
+
+wd:Q430135 rdfs:label "Trial of Louis XVI" .
+
+wd:Q43185013 a sem:EventType ;
+    rdfs:label "maritime republic" .
+
+wd:Q44160 a sem:Place ;
+    rdfs:label "Toulon" ;
+    sem:placeType wd:P276 .
+
+wd:Q44197 rdfs:label "Maximilien Robespierre" .
+
+wd:Q456 a sem:Place ;
+    rdfs:label "Lyon" ;
+    sem:placeType wd:P276 .
+
+wd:Q45670 rdfs:label "Kingdom of Portugal" .
+
+wd:Q507083 rdfs:label "Pierre-Augustin Hulin" .
+
+wd:Q511866 a sem:EventType ;
+    rdfs:label "mutiny" .
+
+wd:Q517 rdfs:label "Napoleon" .
+
+wd:Q5401 a sem:Place ;
+    rdfs:label "Eurasia" ;
+    sem:placeType wd:P30 .
+
+wd:Q56061 a sem:EventType ;
+    rdfs:label "administrative territorial entity" .
+
+wd:Q58178441 a sem:Event ;
+    rdfs:label "Republic of Genova" ;
+    sem:eventType wd:Q3024240,
+        wd:Q3624078,
+        wd:Q43185013,
+        wd:Q79751 ;
+    sem:hasBeginTimeStamp "1005-01-01"^^xsd:date ;
+    sem:hasEndTimeStamp "1797-06-14"^^xsd:date ;
+    sem:hasPlace wd:Q142,
+        wd:Q38,
+        wd:Q46 ;
+    wd:P155 wd:Q838931 ;
+    wd:P361 wd:Q58178441 ;
+    wd:Q107995509 wd:Q659312 .
+
+wd:Q599613 rdfs:label "County of Namur" .
+
+wd:Q621 a sem:Place ;
+    rdfs:label "Versailles" ;
+    sem:placeType wd:P276 .
+
+wd:Q62651 rdfs:label "Denmark-Norway" .
+
+wd:Q638575 rdfs:label "Lordship of Mechelen" .
+
+wd:Q645883 a sem:EventType ;
+    rdfs:label "military operation" .
+
+wd:Q659312 rdfs:label "Ligurian Republic" .
+
+wd:Q673526 a sem:Place ;
+    rdfs:label "Grand Châtelet" ;
+    sem:placeType wd:P276 .
+
+wd:Q689128 a sem:Event ;
+    rdfs:label "Haitian Revolution" .
+
+wd:Q697787 rdfs:label "Duchy of Limburg" .
+
+wd:Q7163 a sem:EventType ;
+    rdfs:label "politics" .
+
+wd:Q71724 a sem:Place ;
+    rdfs:label "Lorient" ;
+    sem:placeType wd:P276 .
+
+wd:Q7188 a sem:EventType ;
+    rdfs:label "government" .
+
+wd:Q724922 rdfs:label "Committee of Public Safety" .
+
+wd:Q750215 a sem:EventType ;
+    rdfs:label "mass murder" .
+
+wd:Q780457 rdfs:label "Legislative Assembly" .
+
+wd:Q78994 rdfs:label "Napoleonic Wars" .
+
+wd:Q790 a sem:Place ;
+    rdfs:label "Haiti" ;
+    sem:placeType wd:P276 .
+
+wd:Q79751 a sem:EventType ;
+    rdfs:label "oligarchy" .
+
+wd:Q805255 a sem:Place ;
+    rdfs:label "Salle du Jeu de Paume" ;
+    sem:placeType wd:P276 .
+
+wd:Q80702 rdfs:label "Spanish Empire" .
+
+wd:Q822225 rdfs:label "Bernard-René Jourdan de Launay" .
+
+wd:Q831663 a sem:EventType ;
+    rdfs:label "military campaign" .
+
+wd:Q838931 rdfs:label "Kingdom of Italy" .
+
+wd:Q8465 a sem:EventType ;
+    rdfs:label "civil war" .
+
+wd:Q856882 a sem:Place ;
+    rdfs:label "Bicêtre" ;
+    sem:placeType wd:P276 .
+
+wd:Q8628 a sem:Event ;
+    rdfs:label "War in the Vendée" .
+
+wd:Q876424 rdfs:label "National Constituent Assembly" .
+
+wd:Q939883 a sem:Place ;
+    rdfs:label "Pitié-Salpêtrière Hospital" ;
+    sem:placeType wd:P276 .
+
+wd:Q951768 a sem:Place ;
+    rdfs:label "Château de Vizille" ;
+    sem:placeType wd:P276 .
+
+wd:Q960165 a sem:Place ;
+    rdfs:label "Collège des Bernardins" ;
+    sem:placeType wd:P276 .
+
+wd:P30 a sem:PlaceType ;
+    rdfs:label "continent" .
+
+wd:Q13418847 a sem:EventType ;
+    rdfs:label "historical event" .
+
+wd:Q217925 a sem:Place ;
+    rdfs:label "Champ de Mars" ;
+    sem:placeType wd:P276 .
+
+wd:Q219825 a sem:Event ;
+    rdfs:label "National Convention" ;
+    sem:eventType wd:Q35749,
+        wd:Q5589178 ;
+    sem:hasBeginTimeStamp "1792-09-20"^^xsd:date ;
+    sem:hasEndTimeStamp "1795-10-26"^^xsd:date ;
+    sem:hasPlace wd:Q142 ;
+    sem:subEventOf wd:Q58296,
+        wd:Q6534 ;
+    wd:P1365 wd:Q780457 .
+
+wd:Q234364 a sem:Place ;
+    rdfs:label "Tuileries Palace" ;
+    sem:placeType wd:P276 .
+
+wd:Q3199915 a sem:EventType ;
+    rdfs:label "massacre" .
+
+wd:Q69323 rdfs:label "Kingdom of France" .
+
+wd:Q71084 rdfs:label "First French Empire" .
+
+wd:Q861551 a sem:Place ;
+    rdfs:label "Saint-Domingue" ;
+    sem:placeType wd:P276 .
+
+wd:Q11514315 a sem:EventType ;
+    rdfs:label "historical period" .
+
+wd:Q1190554 a sem:EventType ;
+    rdfs:label "occurrence" .
+
+wd:Q3624078 a sem:EventType ;
+    rdfs:label "sovereign state" .
+
+wd:Q46 a sem:Place ;
+    rdfs:label "Europe" ;
+    sem:placeType wd:P276,
+        wd:P30 .
+
+wd:Q877619 rdfs:label "French Consulate" .
+
+wd:P17 a sem:PlaceType ;
+    rdfs:label "country" .
+
+wd:Q180684 a sem:EventType ;
+    rdfs:label "conflict" .
+
+wd:Q3024240 a sem:EventType ;
+    rdfs:label "historical country" .
+
+wd:Q45382 a sem:EventType ;
+    rdfs:label "coup d'état" .
+
+wd:Q5589178 a sem:EventType ;
+    rdfs:label "regime" .
+
+wd:Q124757 a sem:EventType ;
+    rdfs:label "riot" .
+
+wd:Q70972 a sem:Place ;
+    rdfs:label "Kingdom of France" ;
+    sem:placeType wd:P17 .
+
+wd:Q90 a sem:Place ;
+    rdfs:label "Paris" ;
+    sem:placeType wd:P276 .
+
+wd:Q58296 a sem:Event,
+        sem:Place ;
+    rdfs:label "French First Republic" ;
+    sem:placeType wd:P17,
+        wd:P276 .
+
+wd:Q142 a sem:Place ;
+    rdfs:label "France" ;
+    sem:placeType wd:P17 .
+
+wd:P710 a sem:RoleType ;
+    rdfs:label "participant" .
+
+wd:P276 a sem:PlaceType ;
+    rdfs:label "location" .
+
+wd:Q6534 a sem:Event ;
+    rdfs:label "French Revolution" .
+
